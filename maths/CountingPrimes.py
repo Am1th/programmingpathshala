@@ -9,7 +9,7 @@ primes[0] = 0
 primes[1] = 0
 
 for i in range(2, int(math.sqrt(N)) + 1):
-    for j in range(i, (N // i) + 1):
+    for j in range(i, (N // i) + 1):     #must write but i skipped,  if primes[i]==1
         primes[i * j] = 0
 
 #alternate loop suggested by chatgpt for above
